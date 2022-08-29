@@ -1,0 +1,35 @@
+{
+  "name": "aaa-react-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "16.14.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client/ && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PBnJson/awesomeReactPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PBnJson/awesomeReactPortfolio/issues"
+  },
+  "homepage": "https://github.com/PBnJson/awesomeReactPortfolio#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19"
+  }
+}

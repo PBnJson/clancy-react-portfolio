@@ -1,0 +1,25 @@
+.foot-container {
+  height: 17.8%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.foot-parent {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+}
+
+.foot-parent img {
+  max-width: 100%;
+  height: 130px;
+}
+
+@media screen and (max-width: 1110) {
+  .foot-parent {
+    display: flex;
+    align-items: flex-end;
+  }
+}
