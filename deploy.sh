@@ -10,4 +10,6 @@ git push origin main
 ## Upload to production when ready
 git push heroku main
 
-## sh deploy.sh
+## after making changes run - sh deploy.sh
+
+## add commit messages here, bc this wont add any messages.
