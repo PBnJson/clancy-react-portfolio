@@ -68,8 +68,8 @@ export default function Profile() {
               Hire Me{" "}
             </button>
             <a
-              href="ClancyResume.pdf"
-              download="Clancy ClancyResume.pdf"
+              href="ClancysResume.pdf"
+              download="ClancysResume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               type="application/pdf"
